@@ -2,10 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=ffcce6&height=200&section=header&text=Chào+Mừng+Bạn+Đã+Đến+Với+Github+Của+Tôi.&fontSize=40&fontColor=ff66b2&animation=fadeIn&fontAlignY=35" alt="Header" />
 </p>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Sacramento&size=40&duration=4000&pause=1000&color=FF66B2&center=true&vCenter=true&width=500&lines=Xin+chào+👋+Mình+là+Nhật;Lập+trình+viên+Full-stack;Yêu+thích+Anime+và+Thiết+kế;Sẵn+sàng+hợp+tác+❤️" alt="Typing Sakura" />
-</h1>
-
 ## 🌸 Giới thiệu
 
 ```diff
