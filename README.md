@@ -59,4 +59,3 @@ Hehe~ another cutie has been caught.
 [![](https://img.shields.io/badge/Mail-D14836?logo=gmail&logoColor=white)](mailto:minhtientiny@gmail.com)
 <!-- [![](https://img.shields.io/badge/Telegram-2ca5e0?logo=telegram&logoColor=white)](https://t.me/NguyenNhatIT) -->
 <!-- [![](https://img.shields.io/badge/Kofi-ff5c5a?logo=ko-fi&logoColor=white)](https://ko-fi.com/NguyenNhatIT) -->
-<!-- [![NguyenNhatIT](https://mizu.is-a.dev/public/NguyenNhatIT.png)](https://mizu.is-a.dev/) -->
