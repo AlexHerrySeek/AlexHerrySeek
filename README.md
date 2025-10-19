@@ -1,6 +1,6 @@
 ![Preview](./images/bg.webp)
 
-<a href="https://discord.gg/VM7ESrzccs"><img align="right" width="425" src="https://lanyard.cnrad.dev/api/1073115194529677332?&bg=0d1117&animated=false&hideDiscrim=true&borderRadius=5px&idleMessage=Probably%20doing%20something%20else..."></a>
+<a href="https://discord.gg/VM7ESrzccs"><img align="right" width="425" src="https://lanyard.cnrad.dev/api/1429550431176101990?&bg=0d1117&animated=false&hideDiscrim=true&borderRadius=5px&idleMessage=Probably%20doing%20something%20else..."></a>
 
 
 ### Hi!👋 I'm Nguyễn Minh Nhật 🍙
@@ -37,7 +37,7 @@
 <!-- <p align="center">
 	<img src="https://moe-counter.glitch.me/get/@NguyenNhatIT?theme=moebooru-h"> <br/>
 </p> -->
-<!-- <a href="https://discord.com/users/1073115194529677332"><img align="right" width=400 src="https://count.getloli.com/@NguyenNhatIT?name=NguyenNhatIT&theme=rule34&padding=10&offset=0&scale=1&pixelated=1&darkmode=0"></a>
+<!-- <a href="https://discord.com/users/1429550431176101990"><img align="right" width=400 src="https://count.getloli.com/@NguyenNhatIT?name=NguyenNhatIT&theme=rule34&padding=10&offset=0&scale=1&pixelated=1&darkmode=0"></a>
 <a href="https://github.com/NguyenNhatIT"><img align="left" width="100" src="./images/mahiro.png"></a>
 
 ```yaml
@@ -48,7 +48,7 @@ Hehe~ another cutie has been caught.
 <!-- <br><br><br><br> -->
 ## **📫 Contact**
 <a href="https://github.com/NguyenNhatIT"><img align="right" width="120" src="./images/marin_smug.webp" /></a>
-**Please Contact me on Discord for a quick response:** [NguyenNhatIT](https://discord.com/users/1073115194529677332)
+**Please Contact me on Discord for a quick response:** [NguyenNhatIT](https://discord.com/users/1429550431176101990)
 
 **You can also email me here:** minhtientiny@gmail.com
 
