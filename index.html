@@ -1,29 +1,74 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
 
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nguyễn Minh Nhật - Trang Cá Nhân</title>
+  <!-- SEO -->
   <meta name="title" content="Nguyễn Minh Nhật - Trang Cá Nhân" />
-  <meta name="description"
-    content="Trang Thông Tin Cá Nhân Của Tôi." />
+  <meta name="description" content="Trang Thông Tin Cá Nhân Của Tôi." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/" />
+  <meta property="og:url" content="https://nguyennhatsakura.pages.dev/" />
   <meta property="og:title" content="Nguyễn Minh Nhật - Trang Cá Nhân" />
-  <meta property="og:description"
-    content="Trang Thông Tin Cá Nhân Của Tôi." />
+  <meta property="og:description" content="Trang Thông Tin Cá Nhân Của Tôi." />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="/" />
+  <meta property="twitter:url" content="https://nguyennhatsakura.pages.dev/" />
   <meta property="twitter:title" content="Nguyễn Minh Nhật - Trang Cá Nhân" />
-  <meta property="twitter:description"
-    content="Trang Thông Tin Cá Nhân Của Tôi." />
+  <meta property="twitter:description" content="Trang Thông Tin Cá Nhân Của Tôi." />
+  <!-- Style cơ bản -->
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #root {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .loading {
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-top: 10px;
+      animation: fade 1.5s infinite alternate;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <h1>Welcome.</h1>
+    <div class="loading">Wait Loading...</div>
+  </div>
+
   <script type="module" src="/src/main.tsx"></script>
+
+  <script>
+    const currentPath = window.location.pathname;
+    if (currentPath === '/editor' || currentPath === '/editor/') {
+      window.location.replace('/editor.html');
+    }
+  </script>
 </body>
 
 </html>
