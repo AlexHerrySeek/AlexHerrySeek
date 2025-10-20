@@ -1,6 +1,6 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import cls from "./Home.module.scss";
-import Hoshino from "./../assets/images/haquynhanh.png";
+import Hoshino from "./../assets/images/haquynhanh.svg";
 import { Element } from 'react-scroll'
 import { AspectRatio, Badge, Button, Card, Grid, Heading, IconButton, Link, Text, Tooltip } from "@radix-ui/themes";
 import { PiCodeDuotone, PiDiscordLogoDuotone, PiEnvelopeDuotone, PiGithubLogoDuotone, PiHeartDuotone, PiInfoDuotone, PiMagicWandDuotone, PiPhoneCallDuotone, PiTelegramLogoDuotone } from "react-icons/pi";
@@ -18,7 +18,7 @@ import psIcon from "./../assets/icons/ps.svg";
 
 import QADRPC from "./../assets/projects/qadrpc.png";
 import rdd from "./../assets/projects/rdd.png";
-import banner from "./../assets/images/nguyenhatwibu.webp";
+import banner from "./../assets/images/banner.jpg";
 import desgin from "./../assets/projects/desgin.png";
 
 const ListSocial = [
