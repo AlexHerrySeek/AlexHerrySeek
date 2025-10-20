@@ -1,4 +1,4 @@
-![Banner](./images/bg.webp)
+![Banner](https://nguyennhatsakura.pages.dev/assets/banner-Cg0sF5wt.jpg)
 
 <a href="https://discord.gg/VM7ESrzccs">
   <img align="right" width="420" src="https://lanyard.cnrad.dev/api/1429550431176101990?theme=dark&bg=0d1117&borderRadius=10px&hideDiscrim=true&animated=true&idleMessage=Probably%20doing%20something%20else..."/>
