@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "michioxd.github.io",
+      "name": "Nguyễn Minh Nhật",
       "dependencies": {
         "@fontsource/inter": "^5.2.6",
         "@fontsource/manrope": "^5.2.6",
