@@ -5,6 +5,9 @@ import logo from "./../assets/images/full-ver.png";
 export default function Footer() {
     return (
         <div className={cls.Footer}>
+            <div className="sakana-box-l"></div>
+            <div className="sakana-box-r"></div>
+            <div className="stwBlurRainbow"></div>
             <div className={cls.Inner}>
                 <img srcSet={logo} alt="logo" className={cls.Logo} />
                 <div className={cls.Content}>

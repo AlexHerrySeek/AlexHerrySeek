@@ -1,6 +1,6 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import cls from "./Home.module.scss";
-import Hoshino from "./../assets/images/haquynhanh.svg";
+import HaQuynhAnh from "./../assets/images/haquynhanh.svg";
 import { Element } from 'react-scroll'
 import { AspectRatio, Badge, Button, Card, Grid, Heading, IconButton, Link, Text, Tooltip } from "@radix-ui/themes";
 import { PiCodeDuotone, PiDiscordLogoDuotone, PiEnvelopeDuotone, PiGithubLogoDuotone, PiHeartDuotone, PiInfoDuotone, PiMagicWandDuotone, PiPhoneCallDuotone, PiTelegramLogoDuotone } from "react-icons/pi";
@@ -178,7 +178,7 @@ export default function PageHome() {
         <div className={cls.HomePage}>
             <Element name="home" className={cls.Main}>
                 <ParallaxBanner
-                    layers={[{ image: Hoshino, speed: -40, className: cls.BannerInner }]}
+                    layers={[{ image: HaQuynhAnh, speed: -40, className: cls.BannerInner }]}
                     className={cls.Banner}
                 />
                 <div className={cls.Info}>
@@ -307,11 +307,10 @@ export default function PageHome() {
                     </div>
                 </div>
                 <div className={cls.BodyAbout}>
-                    <img src={banner} alt="banner" className={cls.BannerAbout} />
-
+                    <img src={banner} alt="banner" className={`${cls.BannerAbout} ${cls.NavbarBrand}`} />
                     <div className={cls.Content}>
                         <Text size="2" color="gray">
-                            hi, i'm herry sakura <Text size="1" color="gray">(you can call me as herry sakura, khuongdua, neko all fine~)</Text>, from Vietnam. i'm a fullstack developer, i love kawaii thing, specially nekooo and oji-san (hoshino you known lmao). i'm not good at anything, but i'm trying to be better. i love to make something new, something cool, something that can help people. i'm trying become princess before gta 6 heh...
+                            hi, i'm herry sakura <Text size="1" color="gray">(you can call me as herry sakura, khuongdua, neko all fine~)</Text>, from Vietnam. i'm a fullstack developer, i love kawaii thing, specially nekooo and oji-san (HaQuynhAnh you known lmao). i'm not good at anything, but i'm trying to be better. i love to make something new, something cool, something that can help people. i'm trying become princess before gta 6 heh...
                         </Text>
                     </div>
                 </div>
