@@ -56,7 +56,7 @@
 </p>
 
 <p align="center"><b>Note:</b> Wakatime stats from Dec 12, 2023</p>
-
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=NguyenNhatIT&amp;theme=dracula&amp;layout=compact&amp;show_icons=true" alt="NguyenNhatIT&#39;s WakaTime stats"></a>
 ---
 
 ## 🧃 Profile Aesthetic  
