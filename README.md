@@ -1,7 +1,7 @@
-![Banner](https://nguyennhatsakura.pages.dev/assets/banner-Cg0sF5wt.jpg)
+![Banner]([https://nguyennhatsakura.pages.dev/assets/banner8-Cd6Mm1F7.jpg])
 
 <a href="https://discord.gg/VM7ESrzccs">
-  <img align="right" width="420" src="https://lanyard.cnrad.dev/api/1429550431176101990?theme=dark&bg=0d1117&borderRadius=10px&hideDiscrim=true&animated=true&idleMessage=Probably%20doing%20something%20else..."/>
+  <img align="right" width="420" src="https://lanyard.cnrad.dev/api/1429824114289545347?theme=dark&bg=0d1117&borderRadius=10px&hideDiscrim=true&animated=true&idleMessage=Probably%20doing%20something%20else..."/>
 </a>
 
 # 🌸 Hi there! I'm **Nguyễn Minh Nhật** 🍙  
