@@ -1,0 +1,74 @@
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.notfound-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notfound-title {
+  font-size: 8rem;
+  margin: 0;
+  color: #ff4c4c;
+}
+
+.notfound-image {
+  width: 500px;
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.notfound-button {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.notfound-button::before {
+  position: absolute;
+  content: "QUAY LẠI";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.notfound-button:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.notfound-button:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.notfound-button:active {
+  transform: scale(0.95);
+}

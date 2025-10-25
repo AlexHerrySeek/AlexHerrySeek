@@ -1,0 +1,95 @@
+.music-popup {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 14px;
+  padding: 16px 20px;
+  width: 350px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.3s ease forwards;
+
+  .popup-inner p {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #ddd;
+  }
+
+  .popup-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    button {
+      flex: 1;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .deny {
+      background: rgba(255, 255, 255, 0.1);
+      color: #aaa;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+    }
+
+    .allow {
+      background: linear-gradient(90deg, #0078d7, #00b7ff);
+      color: white;
+
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.music-info {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(8px);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: #00b7ff;
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

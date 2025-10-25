@@ -25,35 +25,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", ScrollEvent);
   }, []);
 
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://cdn.jsdelivr.net/npm/sakana";
-    script.async = true;
-    script.onload = () => {
-      Sakana.setMute(!1),
-        Sakana.init({
-          el: ".sakana-box-l",
-          scale: 0.5,
-          character: "takina",
-          canSwitchCharacter: !1,
-          inertia: 0.001,
-          decay: 1,
-        }),
-        Sakana.init({
-          el: ".sakana-box-r",
-          scale: 0.5,
-          character: "chisato",
-          canSwitchCharacter: !1,
-          inertia: 0.001,
-          decay: 1,
-        });
-    };
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <div className={clsx(cls.Header, showBg && cls.bg)}>
       <div className={cls.Inner}>

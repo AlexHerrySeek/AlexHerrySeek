@@ -6,6 +6,8 @@ const MainIcon = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 467.7 459.95"
     width="50px"
     height="50px"
+    preserveAspectRatio="xMidYMid meet"
+    style={{ display: "block", margin: "auto" }}
     {...props}
   >
     <path
