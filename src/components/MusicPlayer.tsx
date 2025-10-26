@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Toastify from "toastify-js";
 import "toastify-js/src/toastify.css";
 import "./MusicPlayer.scss";
+import bugcatIcon from "./../assets/images/bugcat.gif";
 
 export default function MusicPlayer() {
   const [showPopup, setShowPopup] = useState(false);
@@ -84,7 +85,7 @@ export default function MusicPlayer() {
     <>
       {showPopup && (
         <div className={`music-popup ${popupClass}`}>
-          <img src="./../assets/images/bugcat.gif" alt="Hà Quỳnh Anh" className="bugcat-icon"/>
+          <img src={bugcatIcon} alt="Hà Quỳnh Anh" className="bugcat-icon"/>
           <div className="popup-inner">
             <p>Do you want to allow listening to music while browsing the web?</p>
             <div className="popup-actions">
