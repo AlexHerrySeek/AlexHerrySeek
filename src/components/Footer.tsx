@@ -1,17 +1,17 @@
 import { Link, Text } from "@radix-ui/themes";
 import cls from "./Footer.module.scss";
 import logo from "./../assets/images/full-ver.png";
-import EndPage from "./../assets/images/footer-end.png";
+// import EndPage from "./../assets/images/footer-end.png";
 
 export default function Footer() {
   return (
     <>
-      <div className="no-event-img" style={{ position: "relative", textAlign: "center" }}>
+      {/*<div className="no-event-img" style={{ position: "relative", textAlign: "center" }}>
         <img src={EndPage} data-src={EndPage} alt="footer-end" className="ls-is-cached lazyloaded" />
         <p style={{ position: "absolute", top: "30%", left: "50%", marginLeft: "-95px", fontSize: "13px" }}>
           You have taken advantage of the same world =))
         </p>
-      </div>
+      </div> */}
       <div className={cls.Footer}>
         <div className="stwBlurRainbow"></div>
         <div className={cls.Inner}>
