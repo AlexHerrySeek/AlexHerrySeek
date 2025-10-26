@@ -84,7 +84,7 @@ export default function MusicPlayer() {
     <>
       {showPopup && (
         <div className={`music-popup ${popupClass}`}>
-          <img src="./assets/icons/bugcat.gif" alt="Hà Quỳnh Anh" className="bugcat-icon"/>
+          <img src="./../assets/images/bugcat.gif" alt="Hà Quỳnh Anh" className="bugcat-icon"/>
           <div className="popup-inner">
             <p>Do you want to allow listening to music while browsing the web?</p>
             <div className="popup-actions">
