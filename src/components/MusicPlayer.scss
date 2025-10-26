@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 .music-popup {
   position: fixed;
   bottom: 30px;
@@ -8,12 +9,25 @@
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 14px;
-  padding: 16px 20px;
+  padding: 20px;
   width: 350px;
   color: #fff;
   text-align: center;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 0.3s ease forwards;
+  overflow: visible;
+
+  .bugcat-icon {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+    animation: bugcatFloat 2.8s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px rgba(0, 183, 255, 0.5));
+  }
 
   .popup-inner p {
     margin: 0 0 12px;
@@ -33,22 +47,20 @@
       border: none;
       font-weight: 500;
       cursor: pointer;
-      transition: all 0.2s ease;
+      transition: all 0.25s ease;
     }
 
     .deny {
       background: rgba(255, 255, 255, 0.1);
       color: #aaa;
-
       &:hover {
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.25);
       }
     }
 
     .allow {
       background: linear-gradient(90deg, #0078d7, #00b7ff);
       color: white;
-
       &:hover {
         opacity: 0.85;
       }
@@ -64,6 +76,67 @@
   to {
     opacity: 1;
     transform: translate(-50%, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -40px);
+  }
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, 40px);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.4s ease forwards;
+}
+.fadeOutUp {
+  animation: fadeOutUp 0.4s ease forwards;
+}
+.fadeOutDown {
+  animation: fadeOutDown 0.4s ease forwards;
+}
+
+@keyframes bugcatFloat {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -8px);
+  }
+}
+
+@keyframes bugcatFloat {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -8px);
   }
 }
 
@@ -87,7 +160,6 @@
     color: #00b7ff;
     cursor: pointer;
     font-weight: bold;
-
     &:hover {
       text-decoration: underline;
     }

@@ -7,14 +7,103 @@
   align-items: center;
   text-align: center;
   padding: 20px;
+  overflow: hidden;
 }
 
+.start-screen {
+  text-align: center;
+  animation: fadeIn 1.5s ease-in;
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.Btn::before {
+  position: absolute;
+  content: "Bắt đầu";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.Btn:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
+
+/* Vùng hiển thị câu tỏ tình */
 .line {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
   color: #fff;
-  max-width: 800px;
-  line-height: 2rem;
-  transition: all 0.5s ease;
+  font-size: 1.6rem;
+  max-width: 700px;
+  line-height: 1.7;
+  white-space: pre-line;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(27, 253, 156, 0.3);
+  border-radius: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 0 25px rgba(27, 253, 156, 0.2);
+  backdrop-filter: blur(10px);
+  animation: fadeUp 1s ease-in;
+  overflow-y: auto;
+  max-height: 75vh;
+  scrollbar-width: thin;
+  scrollbar-color: #1BFD9C #111;
+  text-align: left;
+}
+
+/* Thanh cuộn tùy chỉnh */
+.line::-webkit-scrollbar {
+  width: 8px;
+}
+.line::-webkit-scrollbar-thumb {
+  background: #1BFD9C;
+  border-radius: 10px;
+}
+.line::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }

@@ -126,18 +126,14 @@ const skills: {
 ];
 
 export default function PageHome() {
-  const [currentBanner, setCurrentBanner] = useState(0);
+  const [currentBanner, setCurrentBanner] = useState(
+    Math.floor(Math.random() * banners.length)
+  );
   const [fade, setFade] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false);
-      setTimeout(() => {
-        setCurrentBanner((prev) => (prev + 1) % banners.length);
-        setFade(true);
-      }, 500);
-    }, 5000);
-    return () => clearInterval(interval);
+    setFade(false);
+    setTimeout(() => setFade(true), 300);
   }, []);
 
   return (
@@ -235,7 +231,7 @@ export default function PageHome() {
             <LazyLoadImage alt="banner" src={banners[currentBanner]} effect="blur" className={`${cls.BannerAbout} ${cls.NavbarBrand}`} />
           </div>
           <div className={cls.Content}>
-           <Text size="2" color="gray">hi, i'm alex herry{" "}<Text size="1" color="gray">(you can call me as herry sakura, khuongdua, đỗ hoài khương, alex herry all fine~)</Text>, from Vietnam. i'm a fullstack developer, i love hà quỳnh anh thing, specially nekooo and oji-san (QA.XIUOI you known lmao). i'm not good at anything, but i'm trying to be better. i love to make something new, something cool, something that can help people. i'm trying become princess before gta 6 heh...</Text>
+           <Text size="2" color="gray">hi, i'm alex herry{" "}<Text size="1" color="gray">(you can call me as herry sakura, khuongdua, đỗ hoài khương, alex herry all fine~)</Text>, from Vietnam. i'm a fullstack developer, i love hà quỳnh anh thing, specially nekooo and oji-san (QA.XIUOI you known lmao). i'm not good at anything, but i'm trying to be better. i love to make something new, something cool, something that can help people. i'm trying become princess before gta 6 heh... (secret: if you are ha quynh anh, click <Link color="red" href="/quynhanh">here</Link> for a surprise !!)</Text>
           </div>
         </div>
       </Element>
