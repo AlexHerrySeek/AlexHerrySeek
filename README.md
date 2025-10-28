@@ -1,6 +1,6 @@
 ![Banner](https://nguyennhatsakura.pages.dev/assets/banner8-Cd6Mm1F7.jpg)
 
-<a href="https://discord.gg/VM7ESrzccs">
+<a href="#">
   <img align="right" width="420" src="https://lanyard.cnrad.dev/api/1429824114289545347?theme=dark&bg=0d1117&borderRadius=10px&hideDiscrim=true&animated=true&idleMessage=Probably%20doing%20something%20else..."/>
 </a>
 
@@ -10,7 +10,7 @@
 ---
 
 ## ☕ About Me
-<a href="https://github.com/NguyenNhatIT">
+<a href="https://github.com/AlexHerrySeek">
   <img align="left" width="150" src="./images/marin_kya.webp" style="border-radius: 12px; margin-right: 10px;">
 </a>
 
@@ -26,7 +26,7 @@
 ---
 
 ## 💻 Experience
-<a href="https://github.com/NguyenNhatIT">
+<a href="https://github.com/AlexHerrySeek">
   <img align="right" width="130" src="./images/marin_sad.webp" style="border-radius: 12px;">
 </a>
 
@@ -42,8 +42,8 @@
 
 ## 📊 Github Stats  
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=NguyenNhatIT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NguyenNhatIT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AlexHerrySeek&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexHerrySeek&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10">
 </p>
 
 ---
@@ -51,34 +51,34 @@
 ## 🏆 GitHub Achievements  
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=NguyenNhatIT&theme=onedark&margin-w=8&margin-h=8&no-frame=true" alt="trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=AlexHerrySeek&theme=onedark&margin-w=8&margin-h=8&no-frame=true" alt="trophies" />
   </a>
 </p>
 
 <p align="center"><b>Note:</b> Wakatime stats from Dec 12, 2023</p>
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=NguyenNhatIT&amp;theme=dracula&amp;layout=compact&amp;show_icons=true" alt="NguyenNhatIT&#39;s WakaTime stats"></a>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=AlexHerrySeek&amp;theme=dracula&amp;layout=compact&amp;show_icons=true" alt="AlexHerrySeek&#39;s WakaTime stats"></a>
 ---
 
 ## 🧃 Profile Aesthetic  
 <p align="center">
-  <img src="https://moe-counter.glitch.me/get/@NguyenNhatIT?theme=rule34">
+  <img src="https://moe-counter.glitch.me/get/@AlexHerrySeek?theme=rule34">
   <br><sub>Another cutie has visited my lair 💫</sub>
 </p>
 
 ---
 
 ## 📫 Contact Me
-<a href="https://github.com/NguyenNhatIT">
+<a href="https://github.com/AlexHerrySeek">
   <img align="right" width="130" src="./images/marin_smug.webp" style="border-radius: 12px;">
 </a>
 
-💬 **Discord:** [NguyenNhatIT](https://discord.com/users/1429550431176101990)  
+💬 **Discord:** [AlexHerrySeek](https://discord.com/users/1429550431176101990)  
 📧 **Email:** [minhtientiny@gmail.com](mailto:minhtientiny@gmail.com)
 
 <p align="center">
-  <a href="https://github.com/NguyenNhatIT"><img src="https://komarev.com/ghpvc/?username=NguyenNhatIT&style=for-the-badge&color=blueviolet"></a>
-  <a href="https://github.com/NguyenNhatIT"><img src="https://img.shields.io/github/followers/NguyenNhatIT?label=Followers&style=for-the-badge&logo=github&color=brightgreen"></a>
-  <a href="https://discord.gg/VM7ESrzccs"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge"></a>
+  <a href="https://github.com/AlexHerrySeek"><img src="https://komarev.com/ghpvc/?username=AlexHerrySeek&style=for-the-badge&color=blueviolet"></a>
+  <a href="https://github.com/AlexHerrySeek"><img src="https://img.shields.io/github/followers/AlexHerrySeek?label=Followers&style=for-the-badge&logo=github&color=brightgreen"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge"></a>
   <a href="https://steamcommunity.com/id/nguyenhatdev"><img src="https://img.shields.io/badge/Steam-1b2838?logo=steam&logoColor=white&style=for-the-badge"></a>
   <a href="mailto:minhtientiny@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=white&style=for-the-badge"></a>
 </p>
@@ -87,7 +87,7 @@
 
 ## 🔍 You can find me at
 <p align="center">
-  <a href="https://github.com/NguyenNhatIT"><img src="https://user-images.githubusercontent.com/80969068/205474459-a95b9c58-8e7d-43b0-a79c-388ce8a4a652.png" width="70" /></a>
+  <a href="https://github.com/AlexHerrySeek"><img src="https://user-images.githubusercontent.com/80969068/205474459-a95b9c58-8e7d-43b0-a79c-388ce8a4a652.png" width="70" /></a>
   <a href="https://discord.com/users/536175851247501347"><img src="https://user-images.githubusercontent.com/80969068/234183022-72de9c77-814d-4b2e-9596-d79ad13cb1cd.png" width="70" /></a>
   <a href="https://fb.com/nguyenhat.dev"><img src="https://user-images.githubusercontent.com/80969068/205474577-956db2c3-b7c0-410a-b653-c65653e9a93d.png" width="70" /></a>
   <a href="https://www.youtube.com/@phieutheothebeat"><img src="https://user-images.githubusercontent.com/80969068/205474800-48c30fbd-036c-4f5b-85a8-f41e7cebbc4c.png" width="70" /></a>
@@ -99,7 +99,7 @@
 
 - 📧 **Email:** [minhtientiny@gmail.com](mailto:minhtientiny@gmail.com)  
 - 💬 **Discord:** [michioxd](https://discord.com/users/1429550431176101990) *(formerly `michioxd☆彡#5144`)*  
-- ✈️ **Telegram:** [@nguyennhatit_dev](https://t.me/nguyennhatit_dev)  
+- ✈️ **Telegram:** [@AlexHerrySeek_dev](https://t.me/AlexHerrySeek_dev)  
 
 🔗 **[Donate here](https://playerduo.net/khuongduadev)**  
 
