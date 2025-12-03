@@ -1,0 +1,312 @@
+{
+  "alertEnabled": false,
+  "alertContent": "test",
+  "alertSeverity": 0,
+  "projectDownloadLink": "https://github.com/RealMeddsam/Froststrap/releases",
+  "allowedFastFlags": "eyJTaWduYXR1cmUiOiJkNjFlMTJkNjNkNTA2MWM0ODA3OTBkYTA4Y2FjNmQ4NmY1N2RhN2U0NGI2NDNhNjBiNDMxOWRhZWNjOTNhZWNkNmE0MjFjMzk3OGRiNzc2ZGU4ZGUwMzk5MWFlZjU2MGI4MjRkMWUwY2UyYTUwMjllMjI4NTdmM2Q4OTk5OTkwMCIsIkFsbG93ZWQiOlsiREZGbGFnRGVidWdQYXVzZVZveGVsaXplciIsIkRGRmxhZ0Rpc2FibGVEUElTY2FsZSIsIkRGRmxhZ1RleHR1cmVRdWFsaXR5T3ZlcnJpZGVFbmFibGVkIiwiREZJbnRDU0dMZXZlbE9mRGV0YWlsU3dpdGNoaW5nRGlzdGFuY2UiLCJERkludENTR0xldmVsT2ZEZXRhaWxTd2l0Y2hpbmdEaXN0YW5jZUwxMiIsIkRGSW50Q1NHTGV2ZWxPZkRldGFpbFN3aXRjaGluZ0Rpc3RhbmNlTDIzIiwiREZJbnRDU0dMZXZlbE9mRGV0YWlsU3dpdGNoaW5nRGlzdGFuY2VMMzQiLCJERkludERlYnVnRlJNUXVhbGl0eUxldmVsT3ZlcnJpZGUiLCJERkludFRleHR1cmVRdWFsaXR5T3ZlcnJpZGUiLCJGRmxhZ0RlYnVnR3JhcGhpY3NQcmVmZXJEM0QxMSIsIkZGbGFnRGVidWdHcmFwaGljc1ByZWZlck9wZW5HTCIsIkZGbGFnRGVidWdHcmFwaGljc1ByZWZlclZ1bGthbiIsIkZGbGFnRGVidWdTa3lHcmF5IiwiRkZsYWdIYW5kbGVBbHRFbnRlckZ1bGxzY3JlZW5NYW51YWxseSIsIkZJbnREZWJ1Z0ZvcmNlTVNBQVNhbXBsZXMiLCJGSW50RlJNTWF4R3Jhc3NEaXN0YW5jZSIsIkZJbnRGUk1NaW5HcmFzc0Rpc3RhbmNlIiwiRkludEdyYXNzTW92ZW1lbnRSZWR1Y2VkTW90aW9uRmFjdG9yIl19",
+  "packageMaps": {
+    "common": {
+      "Libraries.zip": "",
+      "redist.zip": "",
+      "shaders.zip": "shaders\\",
+      "ssl.zip": "ssl\\",
+      "WebView2.zip": "",
+      "WebView2RuntimeInstaller.zip": "WebView2RuntimeInstaller\\",
+      "content-avatar.zip": "content\\avatar\\",
+      "content-configs.zip": "content\\configs\\",
+      "content-fonts.zip": "content\\fonts\\",
+      "content-sky.zip": "content\\sky\\",
+      "content-sounds.zip": "content\\sounds\\",
+      "content-textures2.zip": "content\\textures\\",
+      "content-models.zip": "content\\models\\",
+      "content-textures3.zip": "PlatformContent\\pc\\textures\\",
+      "content-terrain.zip": "PlatformContent\\pc\\terrain\\",
+      "content-platform-fonts.zip": "PlatformContent\\pc\\fonts\\",
+      "content-platform-dictionaries.zip": "PlatformContent\\pc\\shared_compression_dictionaries\\",
+      "extracontent-luapackages.zip": "ExtraContent\\LuaPackages\\",
+      "extracontent-translations.zip": "ExtraContent\\translations\\",
+      "extracontent-models.zip": "ExtraContent\\models\\",
+      "extracontent-textures.zip": "ExtraContent\\textures\\",
+      "extracontent-places.zip": "ExtraContent\\places\\"
+    },
+    "player": {
+      "RobloxApp.zip": ""
+    },
+    "studio": {
+      "RobloxStudio.zip": "",
+      "LibrariesQt5.zip": "",
+      "content-studio_svg_textures.zip": "content\\studio_svg_textures\\",
+      "content-qt_translations.zip": "content\\qt_translations\\",
+      "content-api-docs.zip": "content\\api_docs\\",
+      "extracontent-scripts.zip": "ExtraContent\\scripts\\",
+      "studiocontent-models.zip": "StudioContent\\models\\",
+      "studiocontent-textures.zip": "StudioContent\\textures\\",
+      "BuiltInPlugins.zip": "BuiltInPlugins\\",
+      "BuiltInStandalonePlugins.zip": "BuiltInStandalonePlugins\\",
+      "ApplicationConfig.zip": "ApplicationConfig\\",
+      "Plugins.zip": "Plugins\\",
+      "Qml.zip": "Qml\\",
+      "StudioFonts.zip": "StudioFonts\\",
+      "RibbonConfig.zip": "RibbonConfig\\"
+    }
+  },
+  "settingsPage": {
+    "sections": [
+      {
+        "title": "Graphics Settings",
+        "controls": [
+          {
+            "type": "TextBox",
+            "title": "Framerate Limit",
+            "description": "Set a custom FPS cap. Use -1 to reset to the default 60 FPS cap",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/int[@name='FramerateCap']",
+              "dataType": "int"
+            }
+          },
+          {
+            "type": "Slider",
+            "title": "Start Quality",
+            "description": "Adjust how many bars of quality to have on game join.",
+            "value": "",
+            "minValue": 0.0,
+            "maxValue": 10.0,
+            "step": 1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/token[@name='SavedQualityLevel']",
+              "dataType": "token"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Fullscreen",
+            "description": "Start Roblox in fullscreen mode.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='Fullscreen']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Max Quality",
+            "description": "Supposedly sets MSAA to 4 or 6.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='MaxQualityEnabled']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Vignette",
+            "description": "Toggle Roblox vignette.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPaths": [
+                "{UserSettings}/bool[@name='VignetteEnabled']",
+                "{UserSettings}/bool[@name='VignetteEnabledCustomOption']"
+              ],
+              "dataType": "bool"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Audio Settings",
+        "controls": [
+          {
+            "type": "Slider",
+            "title": "Master Volume",
+            "description": "Adjust the global volume.",
+            "value": "",
+            "minValue": 0.0,
+            "maxValue": 1.0,
+            "step": 0.1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/float[@name='MasterVolume']",
+              "dataType": "float"
+            }
+          },
+          {
+            "type": "Slider",
+            "title": "Studio Master Volume",
+            "description": "Adjust the Roblox Studio global volume.",
+            "value": "",
+            "minValue": 0.0,
+            "maxValue": 1.0,
+            "step": 0.1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/float[@name='MasterVolumeStudio']",
+              "dataType": "float"
+            }
+          },
+          {
+            "type": "Slider",
+            "title": "Party Voice Volume",
+            "description": "Adjust the party mode volume.",
+            "value": "",
+            "minValue": 0.0,
+            "maxValue": 1.0,
+            "step": 0.1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/float[@name='PartyVoiceVolume']",
+              "dataType": "float"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Input Settings",
+        "controls": [
+          {
+            "type": "TextBox",
+            "title": "Camera Sensitivity",
+            "description": "Set the camera sensitivity amount.",
+            "value": "",
+            "minValue": 0.1,
+            "maxValue": 5.0,
+            "step": 0.1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/float[@name='GamepadCameraSensitivity']",
+              "dataType": "float"
+            }
+          },
+          {
+            "type": "Vector2",
+            "title": "First Person Mouse Sensitivity",
+            "description": "Adjusts the X/Y sensitivity in first person mode.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/Vector2[@name='MouseSensitivityFirstPerson']",
+              "dataType": "vector2"
+            }
+          },
+          {
+            "type": "Vector2",
+            "title": "Third Person Mouse Sensitivity",
+            "description": "Adjusts the X/Y sensitivity in third person mode.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/Vector2[@name='MouseSensitivityThirdPerson']",
+              "dataType": "vector2"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Invert Camera Y",
+            "description": "Invert the Y axis for camera control.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='CameraYInverted']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "Slider",
+            "title": "Haptic Strength",
+            "description": "Adjust the strength of haptic feedback.",
+            "value": "",
+            "minValue": 0.0,
+            "maxValue": 1.0,
+            "step": 0.1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/float[@name='HapticStrength']",
+              "dataType": "float"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Accessibility",
+        "controls": [
+          {
+            "type": "Slider",
+            "title": "UI Transparency",
+            "description": "Adjust the transparency of the Roblox UI. A value of 1 makes it semi-transparent, while 0 makes it fully opaque.",
+            "value": "",
+            "minValue": 0.0,
+            "maxValue": 1.0,
+            "step": 0.1,
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/float[@name='PreferredTransparency']",
+              "dataType": "float"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Reduced Motion",
+            "description": "Reduces the amount of animation Roblox uses.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='ReducedMotion']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "ComboBox",
+            "title": "Preferred Text Size",
+            "description": "Adjust the size of the text.",
+            "value": "",
+            "options": [
+              { "value": "1", "displayName": "Small" },
+              { "value": "2", "displayName": "Medium" },
+              { "value": "3", "displayName": "Large" },
+              { "value": "4", "displayName": "Extra Large" }
+            ],
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/token[@name='PreferredTextSize']",
+              "dataType": "token"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Miscellaneous Settings",
+        "controls": [
+          {
+            "type": "ToggleSwitch",
+            "title": "Show Performance Stats",
+            "description": "Enable the in-game performance statistics overlay.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='PerformanceStatsVisible']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Chat Translation",
+            "description": "Enable automatic chat translation.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='ChatTranslationEnabled']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "Chat Translation FTUX Shown",
+            "description": "Indicates if the First-Time Experience Tutorial has been shown.",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='ChatTranslationFTUXShown']",
+              "dataType": "bool"
+            }
+          },
+          {
+            "type": "ToggleSwitch",
+            "title": "VR Enabled",
+            "description": "Toggle VR mode on or off",
+            "value": "",
+            "gbsConfig": {
+              "xmlPath": "{UserSettings}/bool[@name='VREnabled']",
+              "dataType": "bool"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
