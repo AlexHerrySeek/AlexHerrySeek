@@ -1,4 +1,4 @@
-![Banner](https://nguyennhatsakura.pages.dev/assets/banner8-Cd6Mm1F7.jpg)
+![Banner](https://i.pinimg.com/736x/e5/61/9a/e5619ad2fae19e5b39a62d1e12277f26.jpg)
 
 <a href="#">
   <img align="right" width="420" src="https://lanyard.cnrad.dev/api/1429824114289545347?theme=dark&bg=0d1117&borderRadius=10px&hideDiscrim=true&animated=true&idleMessage=Probably%20doing%20something%20else..."/>
@@ -72,7 +72,7 @@
   <img align="right" width="130" src="./images/marin_smug.webp" style="border-radius: 12px;">
 </a>
 
-💬 **Discord:** [AlexHerrySeek](https://discord.com/users/1429550431176101990)  
+💬 **Discord:** [AlexHerrySeek](https://discord.com/users/1429824114289545347)  
 📧 **Email:** [minhtientiny@gmail.com](mailto:minhtientiny@gmail.com)
 
 <p align="center">
@@ -91,15 +91,15 @@
   <a href="https://discord.com/users/536175851247501347"><img src="https://user-images.githubusercontent.com/80969068/234183022-72de9c77-814d-4b2e-9596-d79ad13cb1cd.png" width="70" /></a>
   <a href="https://fb.com/nguyenhat.dev"><img src="https://user-images.githubusercontent.com/80969068/205474577-956db2c3-b7c0-410a-b653-c65653e9a93d.png" width="70" /></a>
   <a href="https://www.youtube.com/@phieutheothebeat"><img src="https://user-images.githubusercontent.com/80969068/205474800-48c30fbd-036c-4f5b-85a8-f41e7cebbc4c.png" width="70" /></a>
-  <a href="https://nguyennhatsakura.pages.dev"><img src="https://user-images.githubusercontent.com/80969068/205474654-817a8eda-fb6b-45c2-b398-f0b08ae7adcc.png" width="70" /></a>
+  <a href="#"><img src="https://user-images.githubusercontent.com/80969068/205474654-817a8eda-fb6b-45c2-b398-f0b08ae7adcc.png" width="70" /></a>
 </p>
 
 <details>
   <summary><h2>📞 Contact me?</h2></summary>
 
 - 📧 **Email:** [minhtientiny@gmail.com](mailto:minhtientiny@gmail.com)  
-- 💬 **Discord:** [michioxd](https://discord.com/users/1429550431176101990) *(formerly `michioxd☆彡#5144`)*  
-- ✈️ **Telegram:** [@AlexHerrySeek_dev](https://t.me/AlexHerrySeek_dev)  
+- 💬 **Discord:** [AlexHerrySeek](https://discord.com/users/1429824114289545347) *(formerly `AlexHerrySeek#0000`)*  
+- ✈️ **Telegram:** [@AlexHerrySeek_dev](https://t.me/AlexHerry_Seek)  
 
 🔗 **[Donate here](https://playerduo.net/khuongduadev)**  
 
