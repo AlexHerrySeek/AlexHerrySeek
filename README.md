@@ -1,4 +1,8 @@
-![Banner](https://i.pinimg.com/736x/e5/61/9a/e5619ad2fae19e5b39a62d1e12277f26.jpg)
+<a href="#">
+  <img align="center" width="420" src="https://i.pinimg.com/736x/e5/61/9a/e5619ad2fae19e5b39a62d1e12277f26.jpg"/>
+</a>
+
+---
 
 <a href="#">
   <img align="right" width="420" src="https://lanyard.cnrad.dev/api/1429824114289545347?theme=dark&bg=0d1117&borderRadius=10px&hideDiscrim=true&animated=true&idleMessage=Probably%20doing%20something%20else..."/>
@@ -37,25 +41,6 @@
 - ❤️ Passionate about anime culture and dressing up as my favorite characters.  
 
 <br clear="right"/>
-
----
-
-## 📊 Github Stats  
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AlexHerrySeek&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexHerrySeek&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&border_radius=10">
-</p>
-
----
-
-## 🏆 GitHub Achievements  
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=AlexHerrySeek&theme=onedark&margin-w=8&margin-h=8&no-frame=true" alt="trophies" />
-  </a>
-</p>
-
-<p align="center"><b>Note:</b> Wakatime stats from Dec 12, 2023</p>
 
 ---
 
